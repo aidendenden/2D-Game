@@ -53,9 +53,11 @@
      <Compile Include="Assets\Script\SelectImage.cs" />
      <Compile Include="Assets\Script\GameEventManager.cs" />
      <Compile Include="Assets\Script\GameItem.cs" />
+     <Compile Include="Assets\Script\ItemTag.cs" />
      <Compile Include="Assets\Script\SelectObjManager.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\TimeLine" />
+     <Folder Include="Assets\Audio" />
      <Folder Include="Assets\Script" />
      <Folder Include="Assets\Animation" />
      <Folder Include="Assets\Image" />

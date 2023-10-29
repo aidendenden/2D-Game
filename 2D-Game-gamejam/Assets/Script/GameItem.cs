@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -25,10 +26,9 @@ public class GameItem : MonoBehaviour, IPointerClickHandler
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("same so");
         if (OnTrigger)
         {
-            GameEventManager.Instance.Triggered("to TriggerEnter", gameItem,null);
+            GameEventManager.Instance.Triggered("to TriggerEnter", gameItem,other.transform);
         }
     }
 

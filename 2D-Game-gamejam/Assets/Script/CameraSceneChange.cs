@@ -7,7 +7,7 @@ public class CameraSceneChange : MonoBehaviour
 {
     public GameObject[] sceneAndButton;
 
-    private int nowScene;
+    public int nowScene;
 
     private int _nowScene
     {

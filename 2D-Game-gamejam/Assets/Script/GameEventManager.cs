@@ -69,12 +69,10 @@ public class GameEventManager : MonoBehaviour
 public enum StuffEnum
 {
     Null,
-    宣传册,
     柴火,
+    木头,
     煤油瓶,
     煤油灯,
-    大衣口袋,
-    火柴盒,
     炉子,
     
 }
