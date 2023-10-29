@@ -14,7 +14,7 @@ namespace Script
 
         private void Start()
         {
-            
+            LoadNextLevel();
         }
 
         public void LoadNextLevel()

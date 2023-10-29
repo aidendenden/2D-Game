@@ -34,7 +34,7 @@ public class SelectImage : MonoBehaviour, IPointerDownHandler,IPointerClickHandl
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        
     }
     
     public void OnPointerUp(PointerEventData eventData)

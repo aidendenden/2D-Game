@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 346ad18367ed67247b1585b605c8b8e8
+guid: b14bd6888dee2bd4d88fbaed5db10816
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "\u5FAE\u4FE1\u56FE\u7247_20231029113630_0"
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 560
+        width: 114
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e07a4b9fca42c3468f1327010167122
+      internalID: -494365371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u5FAE\u4FE1\u56FE\u7247_20231029113630_1"
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 564
+        width: 114
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c1752494030bd4c898794166bfd03e
+      internalID: 1298804039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u5FAE\u4FE1\u56FE\u7247_20231029113630_2"
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 562
+        width: 114
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484cf8bac87e2e34482799ed25aeea1a
+      internalID: -682377218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +208,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\u5FAE\u4FE1\u56FE\u7247_20231029113630_0": -494365371
+      "\u5FAE\u4FE1\u56FE\u7247_20231029113630_1": 1298804039
+      "\u5FAE\u4FE1\u56FE\u7247_20231029113630_2": -682377218
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

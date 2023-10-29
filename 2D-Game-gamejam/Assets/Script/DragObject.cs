@@ -61,10 +61,11 @@ public class DragObject : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonUp(0))
+      if (Input.GetMouseButtonUp(0))
         {
             isDrag = false;
             currentTransform = null;
+            
         }
     }
 }
