@@ -21,6 +21,11 @@ public class DragObject : MonoBehaviour
 
     void Update()
     {
+        if (SelectObjManager.Instance.isGoToDrag==false)
+        {
+            return;
+        }
+        
         if (Input.GetMouseButtonDown(0))
         {
             //将鼠标输入点转化为一条射线

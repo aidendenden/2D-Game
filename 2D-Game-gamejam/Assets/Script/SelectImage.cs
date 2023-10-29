@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class SelectImage : MonoBehaviour, IPointerDownHandler
+public class SelectImage : MonoBehaviour, IPointerDownHandler,IPointerClickHandler,IPointerUpHandler
 {
     //需要被实例化的预制
     public GameObject inistatePrefab;
+    
+    
 
     //实例化后的对象
     private GameObject inistateObj;
@@ -24,8 +26,19 @@ public class SelectImage : MonoBehaviour, IPointerDownHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         inistateObj.SetActive(true);
-
+        
         //将当前需要被实例化的对象传递到管理器中
         SelectObjManager.Instance.AttachNewObject(inistateObj);
+        SelectObjManager.Instance.isGoToDrag = true;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        throw new System.NotImplementedException();
+    }
+    
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        SelectObjManager.Instance.isGoToDrag = false;
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class SelectObjManager : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class SelectObjManager : MonoBehaviour
     int touchID;
     bool isDragging = false;
 
-    bool isTouchInput = false;
+    //bool isTouchInput = false;
 
     //是否是有效的放置（如果放置在地面上返回True,否则为False）
     bool isPlaceSuccess = false;
@@ -33,6 +34,8 @@ public class SelectObjManager : MonoBehaviour
     //坐标在Y轴上的偏移量
     public float _YOffset = 0.5F;
 
+    public bool isGoToDrag;
+    
     void Awake()
     {
         _instance = this;
@@ -105,7 +108,7 @@ public class SelectObjManager : MonoBehaviour
         }
 
         currentPlaceObj.transform.position = point + new Vector3(0, _YOffset, 0);
-        currentPlaceObj.transform.localEulerAngles = new Vector3(0, 60, 0);
+        //currentPlaceObj.transform.localEulerAngles = new Vector3(0, 60, 0);
     }
 
     /// <summary>

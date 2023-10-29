@@ -46,10 +46,16 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\ImageMoveToTarget.cs" />
+     <Compile Include="Assets\Script\CameraSceneChange.cs" />
+     <Compile Include="Assets\Script\LevelLoader.cs" />
+     <Compile Include="Assets\Script\GameManager.cs" />
      <Compile Include="Assets\Script\DragObject.cs" />
      <Compile Include="Assets\Script\SelectImage.cs" />
+     <Compile Include="Assets\Script\GameEventManager.cs" />
+     <Compile Include="Assets\Script\GameItem.cs" />
      <Compile Include="Assets\Script\SelectObjManager.cs" />
      <Folder Include="Assets" />
+     <Folder Include="Assets\TimeLine" />
      <Folder Include="Assets\Script" />
      <Folder Include="Assets\Animation" />
      <Folder Include="Assets\Image" />

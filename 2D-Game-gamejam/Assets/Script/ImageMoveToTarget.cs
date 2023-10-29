@@ -15,7 +15,7 @@ public class ImageMoveToTarget : MonoBehaviour
     private IEnumerator MoveToTargetCoroutine()
     {
         Vector3 startPos = transform.position;
-        Vector3 targetPos = target+startPos;
+        Vector3 targetPos = target;
 
         float distance = Vector3.Distance(startPos, targetPos);
         float startTime = Time.time;
@@ -29,8 +29,9 @@ public class ImageMoveToTarget : MonoBehaviour
 
             yield return null;
         }
-
+        
         // 移动完成后的操作
         Debug.Log("移动完成");
+        this.transform.gameObject.SetActive(false);
     }
 }
