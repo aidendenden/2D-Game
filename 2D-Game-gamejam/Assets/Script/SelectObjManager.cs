@@ -34,7 +34,7 @@ public class SelectObjManager : MonoBehaviour
     //坐标在Y轴上的偏移量
     public float _YOffset = 0.5F;
 
-    public bool isGoToDrag;
+    public bool isGoToDrag=false;
     
     void Awake()
     {
@@ -76,7 +76,16 @@ public class SelectObjManager : MonoBehaviour
         }
         return false;
 #else
-        return Input.GetMouseButton(0);
+        if (!isGoToDrag)
+        {
+            return Input.GetMouseButton(0);
+        }
+        else
+        {
+            isGoToDrag = false;
+        }
+        
+        return false;
 #endif
     }
 

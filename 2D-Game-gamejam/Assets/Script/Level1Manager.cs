@@ -13,9 +13,13 @@ public class Level1Manager : MonoBehaviour
     }
 
 
-    public GameObject 木头;
     public GameObject 柴火;
+    public GameObject 柴火UI;
     public GameObject 煤油灯;
+    public GameObject 煤油灯UI;
+    public GameObject 木头;
+    public GameObject 木头UI;
+    
  
     
     private bool woodIsReady=false;
@@ -40,19 +44,24 @@ public class Level1Manager : MonoBehaviour
             if (stuffenum == StuffEnum.炉子 && type == StuffEnum.木头&& woodIsReady==false)
             {
                 木头.SetActive(true);
+                木头UI.SetActive(false);
                 woodIsReady = true;
+                SelectObjManager.Instance.isGoToDrag = true;
             }
             
             if (stuffenum == StuffEnum.炉子 && type == StuffEnum.柴火&& woodIsReady==true)
             {
                 柴火.SetActive(true);
-             
+                柴火UI.SetActive(false);
+                SelectObjManager.Instance.isGoToDrag = true;
             }
        
             
             if (stuffenum == StuffEnum.煤油灯 && type == StuffEnum.煤油瓶)
             {
                 煤油灯.SetActive(true);
+                煤油灯UI.SetActive(false);
+                SelectObjManager.Instance.isGoToDrag = true;
             }
             
         }

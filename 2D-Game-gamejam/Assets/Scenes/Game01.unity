@@ -655,9 +655,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3a2b937aa7969d40a54278bfda6f29d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "\u6728\u5934": {fileID: 1079480707}
   "\u67F4\u706B": {fileID: 1885809748}
+  "\u67F4\u706BUI": {fileID: 939373820}
   "\u7164\u6CB9\u706F": {fileID: 1399845677}
+  "\u7164\u6CB9\u706FUI": {fileID: 299332952}
+  "\u6728\u5934": {fileID: 1079480707}
+  "\u6728\u5934UI": {fileID: 459342305}
 --- !u!1 &170387226
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,7 +914,7 @@ GameObject:
   - component: {fileID: 199300588}
   - component: {fileID: 199300587}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Image4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1105,7 +1108,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1135,7 +1138,7 @@ GameObject:
   - component: {fileID: 299332954}
   - component: {fileID: 299332956}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Image2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1524,8 +1527,8 @@ Transform:
   m_GameObject: {fileID: 437568959}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.136, y: 0, z: -18.57}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: -17.87, y: 0.24, z: -18.57}
+  m_LocalScale: {x: 1.3618, y: 1.3618, z: 1.3618}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1789350000}
@@ -1553,7 +1556,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1656,7 +1659,7 @@ GameObject:
   - component: {fileID: 459342307}
   - component: {fileID: 459342309}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Image3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2133,7 +2136,6 @@ GameObject:
   m_Component:
   - component: {fileID: 907756305}
   - component: {fileID: 907756304}
-  - component: {fileID: 907756303}
   - component: {fileID: 907756306}
   - component: {fileID: 907756307}
   - component: {fileID: 907756308}
@@ -2144,23 +2146,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &907756303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907756302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a66134d4a93aa8b4c81e5c8917ec8ab6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dragLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  currentTransform: {fileID: 0}
-  isDrag: 0
 --- !u!212 &907756304
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2222,7 +2207,7 @@ Transform:
   m_GameObject: {fileID: 907756302}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.44, y: 0, z: -19.62}
+  m_LocalPosition: {x: -17.72, y: -2.34, z: -19.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2272,7 +2257,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2474,7 +2459,7 @@ GameObject:
   - component: {fileID: 939373822}
   - component: {fileID: 939373824}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Image1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

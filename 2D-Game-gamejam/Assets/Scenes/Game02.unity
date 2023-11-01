@@ -1200,7 +1200,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1302,7 +1302,6 @@ GameObject:
   m_Component:
   - component: {fileID: 634911429}
   - component: {fileID: 634911434}
-  - component: {fileID: 634911433}
   - component: {fileID: 634911432}
   - component: {fileID: 634911431}
   - component: {fileID: 634911430}
@@ -1322,7 +1321,7 @@ Transform:
   m_GameObject: {fileID: 634911428}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.44, y: 0, z: -19.62}
+  m_LocalPosition: {x: -18.59, y: 0, z: -19.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1364,7 +1363,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1389,23 +1388,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.22, y: 1.41, z: 4.9178963}
   m_Center: {x: 0, y: 0, z: 0.36001015}
---- !u!114 &634911433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 634911428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a66134d4a93aa8b4c81e5c8917ec8ab6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dragLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  currentTransform: {fileID: 0}
-  isDrag: 0
 --- !u!212 &634911434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1680,7 +1662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &768263329
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2774,7 +2756,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4076,7 +4058,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1770410401
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4094,7 +4076,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 1, y: 1}
-  m_SizeDelta: {x: -29.999996, y: -30}
+  m_SizeDelta: {x: -30, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1770410402
 MonoBehaviour:
@@ -4129,7 +4111,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1000842167, guid: 3d59632dc2b023441808c33e7286d6c7, type: 3}
+  m_Sprite: {fileID: 1184657056, guid: 336854c0d3479be4c9a7f9adfd4a04c6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

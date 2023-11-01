@@ -59,6 +59,7 @@
      <Compile Include="Assets\Script\ItemTag.cs" />
      <Compile Include="Assets\Script\SelectObjManager.cs" />
      <Folder Include="Assets" />
+     <Folder Include="Assets\Image\Level2" />
      <Folder Include="Assets\TimeLine" />
      <Folder Include="Assets\Audio" />
      <Folder Include="Assets\Script" />
