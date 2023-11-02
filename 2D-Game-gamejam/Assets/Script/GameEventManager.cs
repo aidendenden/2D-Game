@@ -74,5 +74,8 @@ public enum StuffEnum
     煤油瓶,
     煤油灯,
     炉子,
+    遥控器,
+    烧水壶电线,
+    电池,
     
 }
