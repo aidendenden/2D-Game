@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CameraSceneChange : MonoBehaviour
 {
     public GameObject[] sceneAndButton;
 
     public int nowScene;
+    
+
 
     private int _nowScene
     {

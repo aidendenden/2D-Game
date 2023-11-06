@@ -77,5 +77,5 @@ public enum StuffEnum
     遥控器,
     烧水壶电线,
     电池,
-    
+    热水壶
 }

@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class Level1Manager : MonoBehaviour
 {
-    private static Level1Manager _instance;
+    // private static Level1Manager _instance;
 
-    public static Level1Manager Instance
-    {
-        get { return _instance; }
-    }
+    // public static Level1Manager Instance
+    // {
+    //     get { return _instance; }
+    // }
 
 
     public GameObject 柴火;
@@ -20,14 +20,14 @@ public class Level1Manager : MonoBehaviour
     public GameObject 木头;
     public GameObject 木头UI;
     
- 
+    public GameObject 控制器;
     
     private bool woodIsReady=false;
 
-    void Awake()
-    {
-        _instance = this;
-    }
+    // void Awake()
+    // {
+    //     _instance = this;
+    // }
 
     private void Start()
     {
@@ -53,6 +53,7 @@ public class Level1Manager : MonoBehaviour
             {
                 柴火.SetActive(true);
                 柴火UI.SetActive(false);
+                控制器.SetActive(false);
                 SelectObjManager.Instance.isGoToDrag = true;
             }
        

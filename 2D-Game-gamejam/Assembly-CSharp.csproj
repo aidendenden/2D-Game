@@ -51,6 +51,7 @@
      <Compile Include="Assets\Script\Level2Manager.cs" />
      <Compile Include="Assets\Script\LevelLoader.cs" />
      <Compile Include="Assets\Script\LoadSceneWithoutDestroy.cs" />
+     <Compile Include="Assets\Script\Level3Manager.cs" />
      <Compile Include="Assets\Script\GameManager.cs" />
      <Compile Include="Assets\Script\DragObject.cs" />
      <Compile Include="Assets\Script\SelectImage.cs" />
