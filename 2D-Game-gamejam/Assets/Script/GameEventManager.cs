@@ -37,6 +37,11 @@ public class GameEventManager : MonoBehaviour
     {
         OnTrigger -= listener;
     }
+     public void ClearEventListeners()
+    {
+        // 清空事件监听器
+        OnTrigger = null;
+    }
 }
 
 
